@@ -1,8 +1,8 @@
 # Interaction Classification With Key Actor Detection In Videos
 
-## Paper accepted at the CVsports Workshop, CVPR'22.
+Official source code for our paper titled "Interaction Classification With Key Actor Detection in Multi-Person Sports Videos" which has been accepted at the CVsports Workshop, CVPR'22. [[pdf]](https://openaccess.thecvf.com/content/CVPR2022W/CVSports/papers/Askari_Interaction_Classification_With_Key_Actor_Detection_in_Multi-Person_Sports_Videos_CVPRW_2022_paper.pdf)
 
-### Note: Our hockey dataset will be released soon
+Note: Our hockey dataset will be released soon
 
 This repository contains the implementation of our convolutional recurrent neural network for action recognition and key player identification. Many activities in real life take place around many people, however only a few are actually involved in the action. With the help of a suitable attention mechanism inside our action recognition model, we are able to identify the key players involved in the penalty without explicit annotations.
 
@@ -106,3 +106,15 @@ The hyperparameters of the model are optimized using the Ax optimization tool wh
 
 We used [imgaug](https://github.com/aleju/imgaug)  for image and keypoint augmentation.
 
+## Citation
+If you find this work useful for your research, please cite our paper:
+```
+@InProceedings{Askari_2022_CVPR,
+    author    = {Askari, Farzaneh and Ramaprasad, Rohit and Clark, James J. and Levine, Martin D.},
+    title     = {Interaction Classification With Key Actor Detection in Multi-Person Sports Videos},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {3580-3588}
+}
+```
